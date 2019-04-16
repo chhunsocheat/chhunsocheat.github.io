@@ -12,6 +12,7 @@ body{
     background: rgba(0,0,0,0.65);
     width: 50%;
     min-width:400px ;
+    margin: 50px;
 }
 img{
     opacity: 1;
