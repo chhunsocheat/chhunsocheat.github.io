@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(bg.jpg);
+    
+    background-size: cover;
+}
+.container{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    background: rgba(0,0,0,0.65);
+    width: 50%;
+    min-width:400px ;
+}
+img{
+    opacity: 1;
+    margin-top: 10px;
+    border-radius: 50%;
+    min-width: 30%;
+    min-height: 30%;
+}
+img:hover{
+    opacity: 1;
+    margin-top: 10px;
+    border-radius: 50%;
+    min-width: 30%;
+    min-height: 30%;
+    border: 1px white solid;
+    
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-transform: uppercase;
+}
+p{
+    
+font-family: 'Oswald', sans-serif;
+    color:white;
+}
+#first-p{
+    border:1.5px black solid;
+    border-width: 0px 0px 3px 0px;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+i{
+    font-size: 3em;
+    padding: 10px;
+    color: white;
+}
+i:hover{
+    color: black;
+    transition: 0.5s;
+    transform: scale(1.1)
+}
+#fb:hover{
+    color: blue;
+}
+#ig:hover{
+    color: rgb(209, 28, 83);
+}
+#gh:hover{
+    color: black;
+}
+
