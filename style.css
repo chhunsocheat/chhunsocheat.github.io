@@ -162,14 +162,14 @@ height:300px;
     top:-30%;
     }
     .menu-toggle::before{
-        content: "\f0c9";
+        content: "\f1b2";
         line-height: 40px;
         font-family: fontAwesome;
         color: black;
         line-height: 40px;
     }
     .menu-toggle.active:before{
-        content: "\f124";
+        content: "\f00d";
         font-family: fontAwesome;
         float: right;
     }
