@@ -1,10 +1,21 @@
 body{
-    margin-top: 30px;
+    margin-top: 10px;
     padding: 0;
     background-image: url(bg.jpg);
     display: flex;
     background-size: cover;
     justify-content: center;
+    background-position: center center;
+  
+  /* Image doesn't repeat */
+  background-repeat: no-repeat;
+  
+  /* Makes the image fixed in the viewport so that it doesn't move when 
+     the content height is greater than the image height */
+  background-attachment: fixed;
+  
+  /* This is what makes the background image rescale based on its container's size */
+  background-size: cover;
 }
 .container{
     position: relative;
@@ -12,7 +23,8 @@ body{
     background: rgba(0,0,0,0.65);
     width: 50%;
     min-width:400px ;
-    margin: 50px;
+    
+
 }
 img{
     opacity: 1;
@@ -43,6 +55,7 @@ font-family: 'Oswald', sans-serif;
     color:white;
 }
 #first-p{
+    line-height: 30px;
     border:1.5px black solid;
     border-width: 0px 0px 3px 0px;
 }
