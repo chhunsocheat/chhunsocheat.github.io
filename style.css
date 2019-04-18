@@ -175,11 +175,19 @@ height:300px;
     }
     nav{
     display: none;
+    transition: 2s;
     }
     nav.active{
         display: block;
         width: 100%;
         background: #30d87693;
+        transition: 2s;
+    }
+    nav.active ul li{
+        transition: 2s;
+    }
+    nav ul li{
+        transition: 2s;
     }
     .container{
         position: relative;
