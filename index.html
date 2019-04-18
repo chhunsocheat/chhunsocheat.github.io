@@ -10,8 +10,22 @@
     <title>Socheat Chhun</title>
 </head>
 <body>
+        <div class="nav">  
+                <h1 class="logo">KjeiSen</h1>
+                <h1 class="menu-toggle"></h1>
+               <nav> 
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Service</li>
+                    <li>Contact</li>
+                    <li>Portfolio</li>
+                    <li id="last">Career</li>
+                </ul>
+            </nav>
+        </div>
     <div class="container">
-        <img src="pf.jpg" width="50%" height="50%;" alt="">
+        <img src="pf.jpg" width="30%" height="30%;" alt="">
         <h1>Socheat Chhun</h1>
         <p id="first-p" >A self-taught web dev who are studying year one in 
             Information Technology, trying to learn as much as I can
@@ -24,5 +38,18 @@
             <a href="https://github.com/chhunsocheat"> <i id="gh" class="fab fa-github"></i></a>
         </div>
         </div>
+        <script
+        src="https://code.jquery.com/jquery-3.4.0.js"
+        integrity="sha256-DYZMCC8HTC+QDr5QNaIcfR7VSPtcISykd+6eSmBW5qo="
+        crossorigin="anonymous"></script>
+        <script type="text/javascript">
+          $(document).ready(function(){
+              $('.menu-toggle').click(function(){
+                  $('.menu-toggle').toggleClass('active')
+                  $('nav').toggleClass('active')
+                  
+              })
+          })
+      </script>
 </body>
 </html>
