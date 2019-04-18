@@ -181,6 +181,19 @@ height:300px;
         width: 100%;
         background: #30d87693;
     }
+    .container{
+        position: relative;
+        text-align: center;
+        background: rgba(0,0,0,0.65);
+        width: 50%;
+        min-width:300px ;
+        display: block;
+        left: 50%;
+        top:20%;
+        transform: translate(-50%);
+        padding:30px;
+    
+    }
         
 }
 
