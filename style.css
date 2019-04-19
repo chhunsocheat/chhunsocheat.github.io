@@ -180,7 +180,7 @@ height:300px;
     nav.active{
         display: block;
         width: 100%;
-        background: #30d87693;
+        background: #40e6856b;
         transition: 2s;
     }
     nav.active ul li{
